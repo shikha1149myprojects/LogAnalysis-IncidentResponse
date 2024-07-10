@@ -13,33 +13,24 @@ Because your organization believes strongly in separation of duties and the prin
 Time to review the logs from the routers (a copy of which is provided) along with the Cisco Security Advisory, Cisco Talos blog post, and the Talos Indicators of Compromise (IOCs) to determine if the router is vulnerable to CVE-2023-20198 and CVE-2023-20273 and if it has been compromised.
 
 
-### Scenario Notes
-
-Scenario Notes:
-
--The internal IP address of the router is 10.10.9.4
-
--The IP range for your network management tools is 10.99.1.0/24.
-
--NetMRI is a configuration tool used to manage network devices.  Seeing frequent logins from NetMRI to review and update configurations of networking devices is common and should be treated as legitimate when it comes from an IP address in a network management IP range.
-
--netmri is the name of the account utilized at your organization for NetMRI.
-
--Steve Williams (User ID: steve) and Blair Hamilton (User ID: blairh) are your organization’s network engineers. Logins for their accounts from your network management IP range should be treated as legitimate.
+## Scenario Notes
 
 
-### Tools Used
+- The internal IP address of the router is 10.10.9.4
+- The IP range for your network management tools is 10.99.1.0/24.
+- NetMRI is a configuration tool used to manage network devices.  Seeing frequent logins from NetMRI to review and update configurations of networking devices is common and should be treated as legitimate when it comes from an IP address in a network management IP range.
+- netmri is the name of the account utilized at your organization for NetMRI.
+- Steve Williams (User ID: steve) and Blair Hamilton (User ID: blairh) are your organization’s network engineers. Logins for their accounts from your network management IP range should be treated as legitimate.
 
--Splunk: SIEM tool that manages and provides insight into your organization’s cybersecurity. It collects, analyzes, and reports on log data generated throughout your organization’s digital environment
+
+## Tools Used
+
+- Splunk: SIEM tool that manages and provides insight into your organization’s cybersecurity. It collects, analyzes, and reports on log data generated throughout your organization’s digital environment
 
 ## Questions to Answer
 
--Was the router compromised?
-
--If it was compromised, when was it compromised?
-
--If it was compromised, can you determine if the attacker did anything post-compromise?
-
--Since you aren't actually performing them in this scenario what containment, eradication, and recovery steps would you recommend be taken?
-
--What are the lessons learned?
+- Was the router compromised?
+- If it was compromised, when was it compromised?
+- If it was compromised, can you determine if the attacker did anything post-compromise?
+- Since you aren't actually performing them in this scenario what containment, eradication, and recovery steps would you recommend be taken?
+- What are the lessons learned?
