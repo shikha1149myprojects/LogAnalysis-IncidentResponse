@@ -1,4 +1,4 @@
-# LogAnalysis-IncidentResponse
+# Log Analysis and Incident Response
 
 
 ## Scenario
